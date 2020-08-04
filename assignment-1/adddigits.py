@@ -9,7 +9,7 @@ if num>=100 and num<=1000:
     while(num>0):
         x=num%10
         sum1=sum1+x
-        num=num/10
+        num=num//10
     print(int(sum1))
 else:
     print("please enter number in between 100 and 1000")
